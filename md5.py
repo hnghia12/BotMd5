@@ -12,8 +12,8 @@ from keep_alive import keep_alive
 keep_alive()
 
 # === CẤU HÌNH ===
-TOKEN = " 7912905821:AAH2BAQ_erLzeXKfTwFHtmEuEWb4IZcvOII"
-ADMIN_ID = 7227604871  # ID admin chính
+TOKEN = " 7749105278:AAF4q2n-WTZEsMFBXEvrhuYFSMVjkoeXMSg"
+ADMIN_ID = 6915752059  # ID admin chính
 
 activated_users = {}
 
