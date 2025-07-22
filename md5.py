@@ -12,8 +12,8 @@ from keep_alive import keep_alive
 keep_alive()
 
 # === CẤU HÌNH ===
-TOKEN = " 7912905821:AAH2BAQ_erLzeXKfTwFHtmEuEWb4IZcvOII"
-ADMIN_ID = 7227604871  # ID admin chính
+TOKEN = " 8054464097:AAFlpphPap01q7BV405CtDuirsFqiLO7nXg"
+ADMIN_ID = 6915752059  # ID admin chính
 
 activated_users = {}
 
@@ -215,7 +215,7 @@ async def help_cmd(message: types.Message):
         text += "🗓 /danhsach - Danh sách người dùng\n"
         text += "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
     text += "ℹ️ Gửi chuỗi MD5 (32 ký tự) để phân tích ngay!\n"
-    text += "📞 Liên hệ hỗ trợ: https://t.me/Cstooldudoan11"
+    text += "📞 Liên hệ hỗ trợ: https://t.me/nhutquangdz"
     await message.reply(text)
 
 @dp.message_handler(commands=["id"])
@@ -233,7 +233,7 @@ async def id_cmd(message: types.Message):
         f"📊 Trạng Thái: {status}",
         f"⏰ Hạn Dùng: {exp}",
         "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-        "📞 Liên hệ:https://t.me/Cstooldudoan11"
+        "📞 Liên hệ:https://t.me/nhutquangdz"
     ]
     await message.reply("\n".join(text))
 
